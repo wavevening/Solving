@@ -1,13 +1,9 @@
 #include <iostream> 
-#include <string>
 using namespace std;
 
 int main() {
 	int T;
 	string a;
-	
-	
-	
 
 	cin >> T;
 	
@@ -31,7 +27,7 @@ int main() {
 			}
 		}
 		// 팩토리얼 구현 먼저
-		if (arr[1] >= 1) {
+		if (arr[1] != 0) {
 			result = 1;
 		}
 
@@ -40,7 +36,6 @@ int main() {
 		}
 
 		cout << result << "\n";
-
 
 	}
 	return 0;
