@@ -24,13 +24,13 @@ int main() {
 		for (int i = 0; i < N; i++) {
 			int a;
 			cin >> a;
-			CD[a] = 1;
+			CD[a] = true;
 		}
 
 		for (int j = 0; j < M; j++) {
 			int b;
 			cin >> b;
-			if (CD[b] == 1) {
+			if (CD[b]) {
 				count++;
 			}
 		}
